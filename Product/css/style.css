@@ -1,0 +1,86 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.card-section {
+    max-width: 80%;
+    display: grid;
+    margin: 0px auto;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 50px;
+    margin-top: 50px;
+}
+
+.card {
+    box-shadow: 0 0 2px rgba(0, 0, 0, 3);
+    background-color: #f7f7f7;
+}
+
+.card .new-arrival {
+    text-align: right;
+}
+
+.card .new-arrival p {
+    color: yellow;
+    font-size: 22px;
+    display: inline-block;
+    background-color: #eb3464;
+}
+
+.card .title h2 {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    color: #3489d1;
+}
+
+.card .image {
+    display: block;
+    width: 50%;
+    margin: 0px auto;
+    background-color: #fff;
+}
+
+.card .image img {
+    width: 90%;
+    display: block;
+    margin: 0px auto;
+    cursor: pointer;
+}
+
+.card .description p {
+    text-align: center;
+    padding: 15px;
+    color: #558187;
+}
+
+.card .price p {
+    text-align: center;
+    font-size: 18px;
+    color: #000000;
+    padding-top: 5px;
+}
+
+.card .price del {
+    font-size: 14px;
+    color: red;
+}
+
+.card .cart-button {
+    text-align: center;
+    padding: 30px;
+}
+
+.card .cart-button button {
+    padding: 6px;
+    background-color: #f0cd1f;
+    outline: none;
+    border: 1px solid #3489d1;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.card .cart-button button:hover {
+    background-color: #e08814;
+}
